@@ -44,6 +44,8 @@
     }
 
     var Keys = {
+        PAGE_UP: 33,
+        PAGE_DOWN: 34,
         LEFT: 37,
         RIGHT: 39,
         HOME:  36,
@@ -54,12 +56,11 @@
     document.addEventListener('keyup', function (e) {
         console.log(e.keyCode);
         switch(e.keyCode){
-            // case Keys.F5:
-            //     initialize();
-            //     break;
+            case Keys.PAGE_DOWN:
             case Keys.RIGHT:
                 next();
                 break;
+            case Keys.PAGE_UP:
             case Keys.LEFT:
                 previous();
                 break;

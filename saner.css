@@ -1,0 +1,86 @@
+/*
+    I developed this css on the train to the
+    SANER 17 conference in Klagenfurth, Austria.
+*/
+
+div.left {
+    color: inherit;
+    display: block;
+    position: fixed;
+    left: 0vw;
+    width: 50vw;
+    height: 100vh;
+}
+
+div.right {
+    color: inherit;
+    display: block;
+    position: fixed;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+}
+
+section.slide.white {
+    color: #26263b;
+    background-color: white;
+}
+
+section.slide.white h1,
+section.slide.white h2,
+section.slide.white h3 {
+    color: #26263b;
+}
+
+
+section.slide.thought h1,
+section.slide.thought h2,
+section.slide.thought h3 {
+    font-family: 'Lobster Two', sans-serif;
+    font-style: italic;
+    padding: 0.5em;
+    text-align: left;
+}
+
+section.slide.white div.source {
+    color: #26263b;
+}
+
+section.slide.thought span.red {
+    color: #ff0085 !important;
+}
+
+section.slide.thought span.blue {
+    color: #0085ff !important;
+}
+
+section.slide.thought pre code, section.slide.thought pre code {
+    font-family: "Roboto Mono", "Source Code Pro", "Consolas", monospace;
+    white-space: pre;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 48pt;
+    border: 0;
+}
+
+section.slide ul {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+section.slide ul li {
+    color: inherit;
+    display: block;
+    padding: 0;
+    font-size: 48px;
+    height: 72px;
+    line-height: 72px;
+    text-align: left;
+    margin: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+}
