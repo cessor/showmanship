@@ -1,0 +1,145 @@
+* {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section.slide {
+    background-color: #26263b;
+    margin: 0;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+section.slide h1 {
+    font-family: 'Open Sans Condensed', sans-serif;;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0;
+    padding-top: calc(50vh - 64px);
+    font-size: 128px;
+    line-height: 128px;
+}
+
+section.slide h2 {
+    font-family: 'Open Sans Condensed', sans-serif;;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0;
+    padding-top: calc(50vh - 36px);
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.orange {
+    color: #ff6600;
+}
+
+.blue {
+    color: #0085ff !important;
+}
+
+section.slide h1 {
+    margin-top: 0;
+}
+
+section.slide small {
+    display: block;
+    margin-top: 24px;
+    font-size: 48px;
+    font-family: 'Lobster Two';
+    font-style: italic;
+}
+
+section.slide p {
+    font-size: 48px;
+    text-align: left;
+    margin: 10vh 10vw;
+    font-family: 'Vollkorn', 'Garamond', serif;
+}
+
+section.slide ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.slide ul li {
+    display: block;
+    padding: 0;
+    height: 25vh;
+    font-size: 128px;
+    line-height: 25vh;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+section.slide blockquote {
+    font-size: 48px;
+    text-align: left;
+    font-style: italic;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: calc(50vh - 72px);
+    border-left: 4px solid #666;
+    padding-left: 1em;
+    font-family: "Vollkorn", serif;
+}
+section.slide blockquote:before, section.slide blockquote:after {
+    content: "\"";
+}
+
+section.slide div {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin: 0 10vw;
+    font-size: 32px;
+    font-family: "Vollkorn", "Garamond", serif;
+    font-style: italic;
+}
+
+section.slide div:before {
+    content: "-";
+}
+
+section.slide code pre, section.slide pre code {
+    font-family: "Roboto Mono", "Source Code Pro", "Consolas", monospace;
+    white-space: pre;
+    vertical-align: middle;
+    margin: 10vh 20vw;
+    padding: 0;
+    display: block;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 18pt;
+    border-left: 1em solid #666;
+    padding-left: 1em;
+}
+
+span.keyword {
+    color: #0085ff;
+    font-weight: bolder;
+}
+
+span.comment {
+    color: #999;
+}
+
+span.operator {
+    color: #ff33ff;
+}
+
+span.special {
+    color: #9999ff;
+}
+
+
+span.def {
+    color: #21ff33;
+    font-weight: bolder;
+}

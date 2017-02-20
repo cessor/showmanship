@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Object Disoriented Programming</title>
+        <link rel="stylesheet" href="dark.css" media="screen" charset="utf-8">
+</head>
+<body>
+
+    <section class="slide">
+        <h1 class="blue">Object Disoriented Programming</h1>
+    </section>
+
+    <section class="slide">
+        <h2>Authors don't read</h2>
+        <h2>Authors don't code</h2>
+    </section>
+
+    <section class="slide">
+        <h2>
+
+            <span style="color: blue">Sc</span><span style="color: yellow">an</span><span style="color: blue">di</span><span style="color: yellow">na</span><span style="color: blue">vian</span>
+
+
+            <span class="orange">vs.</span>
+
+            <span style="color: blue">A</span><span style="color: white">m</span><span style="color: red">er</span><span style="color: white">ic</span><span style="color: red">an</span>
+
+            Schism</h2>
+        <h2>Authors don't code</h2>
+    </section>
+
+    <section class="slide">
+        <blockquote>
+            Human beings and [their] modes of understanding are being considered a crucial premise for programming language and program design
+        </blockquote>
+    </section>
+
+    <section class="slide">
+        <blockquote>
+            Programs are viewed as artifacts whose quality should only be measured in purely structural properties, such as the level of reuse and the degree of encapsulation. Programs are considered in isolation from human beings.
+        </blockquote>
+    </section>
+
+    <section class="slide">
+        <h1>People</h1>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Ole-Johan Dahl</li>
+            <li>Alan Kay</li>
+            <li>Bjarne Stoustroup</li>
+            <li>Kristen Nygaard</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>R. Kerr</li>
+            <li>Robert C. Martin</li>
+            <li>Grady Booch</li>
+            <li>Tim Rentsch</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Andrew Black</li>
+            <li>Alan Snyder</li>
+            <li>William Cook</li>
+            <li>Jonathan Aldrich</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Andreas Schwill</li>
+            <li>Mary Rosson, Sherman Alpert</li>
+            <li>Less Hatton</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h1>Technical Aspects</h1>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Implementation Details</li>
+            <li>Organisation of Code</li>
+            <li>Performance doesn't matter</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h1>Languages</h1>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Algol, Simula, Smalltalk</li>
+            <li>C, C++, Java</li>
+            <li>Python, JavaScript, Lisp</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Object-oriented <span class="blue">vs.</span> object-based</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Objects as first class citizens?</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Discussion: </h2>
+        <small>Can there be OO in C?</small>
+    </section>
+
+    <section class="slide">
+        <h1>Cognitive Aspects</h1>
+    </section>
+
+    <section class="slide">
+        <h2>Antropomorphism</h2>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Chunking</li>
+            <li>Concepts</li>
+            <li>Representation</li>
+            <li>Linguistics</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <pre>
+            <code>pour(waiter, bottle)
+Waiter.pour(bottle)</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Conceptual mapping</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Modelling</h2>
+    </section>
+
+    <section class="slide">
+         <h2 class="blue">Linguistic Mapping</h2>
+        <small>Namespacing and Sentence Structure are equivalent</small>
+    </section>
+
+    <section class="slide">
+        <pre>
+            <code><span class="comment"># Define</span>
+<span class="keyword">class</span> <span class="def">Person</span>(object):
+    <span class="keyword">def</span> <span class="special">__init__</span>(self, name):
+        self.name = name
+
+    <span class="keyword">def</span> <span class="def">introduce</span>(self):
+        <span class="keyword">print</span>("Hello, my name is %s" % self.name)
+
+<span class="comment"># Run</span>
+myself = Person('Johannes')
+myself.introduce()
+
+<span class="comment"># Same as</span>
+myself = Person('Johannes')
+Person.introduce(myself)</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+         <h2>Psychology vs. Sociology</h2>
+        <small class="green">Does OO model how we think, or how we interact?</small>
+    </section>
+
+    <section class="slide">
+        <blockquote>
+            Jacob Palme (SDRI) proposed hiding mechanisms for protecting variable attributes from unauthorised updating
+        </blockquote>
+        <div class="">
+            Dahl in "The birth of object orientation: the Simula Languages"
+        </div>
+    </section>
+
+    <section class="slide">
+        <blockquote>
+            Organizations wich design systems [...] are constrained to produce designs which are copies of the communication structures of these organizations.
+        </blockquote>
+        <div class="">
+            Conway's law
+        </div>
+    </section>
+
+    <section class="slide">
+         <h1 class="blue">Questions</h1>
+    </section>
+
+
+
+
+
+    <section class="slide">
+         <p>
+             Is there a difference between C Programmers and Java Programmers due to their mode of thinking?
+             <br><br>Extreme examples might be required, such as 100% polymorphic Businessapplication vs. Open GL FSM.
+         </p>
+    </section>
+
+    <section class="slide">
+         <p>
+             Is there a difference in their linguistic abilities?
+            <br><br>
+             Are there cultural differences?
+         </p>
+    </section>
+
+    <section class="slide">
+        <h1>K<span class="blue">THX</span>BYE</h1>
+    </section>
+
+</body>
+<script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="slides.js"></script>
+</html>
