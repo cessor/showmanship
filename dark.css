@@ -28,14 +28,6 @@ img.portrait {
     width: auto;
 }
 
-img.bottom {
-    width: 50vw;
-    left: 50vw;
-    margin: 0;
-    bottom: 0;
-    position: fixed;
-}
-
 section.slide h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
@@ -66,13 +58,7 @@ section.slide h3 {
     line-height: 48px;
 }
 
-section.slide.black {
-    background-color: black;
-}
 
-section.slide.image {
-    background-color: black;
-}
 
 .orange {
     color: #ff6600;
@@ -103,7 +89,7 @@ section.slide p {
 }
 
 section.slide ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     color: inherit;
 }
@@ -154,9 +140,7 @@ section.slide div.copyright {
     right: 0;
 }
 
-section.slide.image div.copyright {
-    color: #666;
-}
+
 
 section.slide code pre, section.slide pre code {
     font-family: "Roboto Mono", "Source Code Pro", "Consolas", monospace;
@@ -193,3 +177,4 @@ span.def {
     color: #21ff33;
     font-weight: bolder;
 }
+
