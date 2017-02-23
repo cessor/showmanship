@@ -1,0 +1,209 @@
+/*
+    I developed this css on the train to the
+    SANER 17 conference in Klagenfurth, Austria.
+*/
+
+div.left {
+    color: inherit;
+    display: block;
+    position: fixed;
+    left: 0vw;
+    width: 50vw;
+    height: 100vh;
+}
+
+div.right {
+    color: inherit;
+    display: block;
+    position: fixed;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+}
+
+section.slide.white {
+    color: #26263b;
+    background-color: white;
+}
+
+section.slide.white h1,
+section.slide.white h2,
+section.slide.white h3 {
+    color: #26263b;
+}
+
+
+section.slide.thought h1,
+section.slide.thought h2,
+section.slide.thought h3 {
+    font-family: 'Lobster Two', sans-serif;
+    font-style: italic;
+    padding: 0.5em;
+    text-align: left;
+}
+
+section.slide.white div.source {
+    color: #26263b;
+}
+
+section.slide.thought span.red {
+    color: #ff0085 !important;
+}
+
+section.slide.thought span.blue {
+    color: #0085ff !important;
+}
+
+section.slide.thought pre code, section.slide.thought pre code {
+    font-family: "Roboto Mono", "Source Code Pro", "Consolas", monospace;
+    white-space: pre;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 48pt;
+    border: 0;
+}
+
+section.slide div.left {
+    display: block;
+    position: fixed;
+    width: 50vw;
+    left: 0
+    height: 100vh;
+}
+
+section.slide h1 {
+    padding-top: 5vh;
+}
+
+section.slide div.right img.face {
+    position: fixed;
+    bottom: 0;
+    height: 50vh;
+    width: auto;
+    left: 50vw;
+}
+
+section.slide ul {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+section.slide ul li {
+    color: inherit;
+    display: block;
+    padding: 0;
+    font-size: 48px;
+    height: 72px;
+    line-height: 72px;
+    text-align: left;
+    margin: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+section.slide.black {
+    background-color: black;
+}
+
+section.slide.image img.center {
+    margin: 2em;
+    padding: 0;
+    width: auto;
+    height: 90%;
+}
+
+
+section.slide h1.middle,
+section.slide h2.middle {
+    padding-top: calc(50vh - 64px);
+}
+
+section.slide .red {
+    color: #ff0085 !important;
+}
+
+section.slide .green {
+    color: #00ff00 !important;
+}
+
+section.slide pre code {
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-top: calc(50vh - 24px);
+    margin: 0;
+    text-align: center;
+    font-size: 48pt;
+}
+
+section.slide p.middle {
+    height: 90px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+section.slide.white table {
+    height: 90%;
+    width: 90%;
+    margin: 1em auto;
+    color: black;
+    border-collapse: collapse;
+
+}
+section.slide.white table th,
+section.slide.white table td {
+    border-bottom: 1px solid black;
+    font-family: 'Crimson Text', serif;
+    color: black;
+    font-size: 32pt;
+}
+
+section.slide.white table td code {
+    color: black
+}
+
+section.slide ul li {
+    width: 100%;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+}
+
+section.slide h2 {
+    display: block;
+    line-height: 96px;
+    height: 64px;
+    vertical-align: middle;
+    padding-top: 1em;
+}
+
+section.slide small {
+    padding-top: 0;
+    position: relative;
+    margin-top: 2em;
+    display: block;
+}
+
+section.slide a {
+    color: #0085ff !important;
+}
+
+section.slide div.source {
+    padding-top: 0;
+    position: relative;
+    margin-top: 4em;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+}
+
+section.slide div.source:before {
+    content: "";
+}
