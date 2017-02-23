@@ -113,9 +113,17 @@ section.slide.image img.center {
     margin: 2em;
     padding: 0;
     width: auto;
+    max-width: 90%;
     height: 90%;
 }
 
+section.slide.image img.center.landscape {
+    margin: 2em;
+    padding: 0;
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+}
 
 section.slide h1.middle,
 section.slide h2.middle {
